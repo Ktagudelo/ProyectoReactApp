@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@700&display=swap');
+
+body {
+    margin: 60px;
+    background-color: #01A0C0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.App-main-nav{
+    padding-left: 50px;
+}
+
+.App-main-nav ul, li{
+    font-family: 'Josefin Sans',sans-serif;
+    display: flex;
+    margin-left: 30px;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+    font-size: xx-large;
+    display: inline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li:hover, li:focus{
+    text-decoration: underline black;
+    font-size: x-large;
+
+}
+
+img {
+    width: 650px;
+}
+
+.App-container{
+    display: inline-grid;
+    padding-top: 39px;
+    grid-template-columns: 550px 200px;
+}
+
+.App-container-p1 {
+    font-family: 'Taviraj',serif;
+    font-size: xx-large;
+    line-height: 30pt;
+}
+
+.App-container-p2 {
+    font-family: 'Great Vibes',cursive;
+    font-weight: bold;
+}
+
+.App-container-p3 {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 20pt;
+}
+
+button {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 170;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-family: 'Taviraj',
+        serif;
+
+}
